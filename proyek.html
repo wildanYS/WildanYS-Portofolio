@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyek dan karya WildanYS.">
+  <title>WildanYS — Proyek</title>
+  <link rel="stylesheet" href="proyek.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">W</span><span>WildanYS</span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false"><i class="ph ph-list"></i></button>
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <a class="nav-link" href="index.html">Tentang saya</a>
+    <a class="nav-link active" href="proyek.html">Proyek</a>
+    <a class="nav-link" href="artikel.html">Artikel</a>
+  </nav>
+</header>
+
+<main class="section-shell">
+  <section class="page-hero reveal">
+    <p class="eyebrow">SELECTED WORKS</p>
+    <h1>Proyek & karya.</h1>
+    <p>Berikut bebarapa proyek dan karya yang telah saya buat.</p>
+  </section>
+
+  <section>
+    <div id="project-grid" class="project-grid" aria-live="polite"></div>
+  </section>
+
+  <section class="poster-preview reveal" aria-labelledby="poster-preview-title">
+    <div class="gallery-heading">
+      <div>
+        <p class="eyebrow">POSTER COLLECTION</p>
+        <h2 id="poster-preview-title">Karya poster pilihan.</h2>
+      </div>
+      <p>Beberapa eksplorasi visual yang telah saya buat.</p>
+    </div>
+
+    <div class="poster-preview-wrap">
+      <div class="poster-preview-grid">
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster Adidas vintage"><img src="Poster/Adidas-vintage.png" alt="Poster Adidas vintage" loading="lazy"></button>
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster baguette"><img src="Poster/baguette.png" alt="Poster baguette" loading="lazy"></button>
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster Caffe Vintage"><img src="Poster/Caffe Vinatage.png" alt="Poster Caffe Vintage" loading="lazy"></button>
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster Korean Spicy Chicken"><img src="Poster/korean spicy chicken.png" alt="Poster Korean Spicy Chicken" loading="lazy"></button>
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster Samsung Buds 4 Pro"><img src="Poster/SAMSUNG BUDS 4 PRO.png" alt="Poster Samsung Buds 4 Pro" loading="lazy"></button>
+        <button class="poster-preview-item" type="button" aria-label="Perbesar Poster tenis"><img src="Poster/Poster Tenis (1).png" alt="Poster tenis" loading="lazy"></button>
+      </div>
+      <div class="poster-preview-fade" aria-hidden="true"></div>
+      <a class="poster-more-link" href="poster.html">
+        <span class="poster-more-copy"><small>Lihat lebih banyak</small>Lihat karya poster</span>
+        <i class="ph ph-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="poster-lightbox" role="dialog" aria-modal="true" aria-label="Tampilan poster ukuran besar" aria-hidden="true">
+  <button class="lightbox-close" type="button" aria-label="Tutup gambar"><i class="ph ph-x" aria-hidden="true"></i></button>
+  <figure class="lightbox-content">
+    <img class="lightbox-image" src="" alt="">
+    <figcaption class="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<footer class="site-footer">
+  <div><strong>WildanYS</strong><span>© 2026 — Portfolio</span></div>
+  <div class="socials">
+    <a href="https://www.instagram.com/wildan_.ys/" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+    <a href="https://wa.me/6282125859949" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
+  </div>
+</footer>
+<script src="proyek.js"></script>
+</body>
+</html>
